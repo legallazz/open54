@@ -415,16 +415,16 @@ body {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1rem;
-  display: -webkit-box;
-  line-clamp: 5;
-  box-orient: vertical;
-  overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 6;
+-webkit-box-orient: vertical;
+overflow: hidden;
 }
 
 .book-metadata {
   display: flex;
   gap: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
   flex-wrap: wrap;
 }
 
@@ -448,7 +448,7 @@ body {
 
 .compact-book-features {
   margin-top: auto;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
